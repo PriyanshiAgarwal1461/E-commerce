@@ -1,0 +1,161 @@
+.home-page {
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+  align-items: center;
+}
+.productContainer {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contain_products {
+  justify-content: space-evenly;
+}
+.cart-btn {
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+.item_no {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  bottom: 41px;
+  right: 12px;
+  transform: translate(25%, 25%);
+  background-color: red;
+  border-radius: 24px;
+}
+.qty-no {
+  width: 80px;
+  margin-right: 25px;
+  height: 10px;
+  border-left: none !important;
+}
+.qty-no .MuiOutlinedInput-input {
+  padding: 9.5px 14px !important;
+  background: #fff
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC)
+    no-repeat right 0.9rem center;
+  background-size: 10% auto;
+}
+.productContainer .MuiCardActions-root {
+  display: flex !important;
+  align-items: flex-start !important;
+}
+.ADD {
+  width: 130px;
+  color: white !important;
+  background-color: red !important;
+}
+.qty {
+  border: 1px solid rgb(133, 133, 133);
+  padding: 7.5px 14px !important;
+  border-right: none;
+  margin-right: -9px;
+  background-color: rgb(224 224 224);
+  /* border-radius: 6px; */
+  border-bottom-left-radius: 6px !important;
+  border-top-left-radius: 6px !important;
+}
+.MRP {
+  font-size: 10px;
+}
+.item_title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #616161;
+  text-align: center;
+}
+.taxes {
+  font-size: 12px;
+  font-weight: bold;
+}
+.item_price {
+  font-size: 0.857em;
+  /* font-weight:bolder ; */
+}
+.drawer {
+  width: 400px;
+}
+.drawer_media {
+  display: flex !important;
+  margin: 10px;
+  padding: 10px;
+}
+.drawer_img {
+  width: 30% !important;
+}
+.drawer_body {
+  width: 60% !important;
+}
+.drawer-action {
+  width: 10% !important;
+  display: flex;
+  align-items: flex-start !important;
+}
+.drawer_delete_btn .MuiSvgIcon-root {
+  fill: red;
+}
+.drawer_price {
+  font-size: 15px !important;
+  margin-top: 10px !important;
+  color: red;
+}
+.drawer_title {
+  font-size: 12px !important;
+}
+.drawer_taxes {
+  font-size: 12px !important;
+}
+.drawer_inc {
+  border: 1px solid black !important;
+  padding: 0px !important;
+  border-radius: 28px !important;
+  min-width: 27px !important;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+.drawer_item_val {
+  /* border: 1px solid black !important; */
+  /* border-radius: 28px !important; */
+  /* min-width: 60px !important; */
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  padding: 5px;
+  margin: 4px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
+}
+.no_item_added {
+  width: 400px;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 36px;
+  font-weight: bolder;
+}
+.cartItems {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.total_cost {
+  text-align: end;
+  font-size: 26px;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.productContainer .MuiCardMedia-img {
+  object-fit: contain !important;
+}
+.drawer_media .MuiCardMedia-img {
+  object-fit: contain !important;
+}
