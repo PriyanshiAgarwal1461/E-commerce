@@ -125,7 +125,7 @@ export const Product = () => {
                     type="number"
                     className="qty-no"
                     inputProps={{ min: 1 }}
-                    onChange={(e) => handleChange(e, item, index)}
+                    onChange={(e) => handleChange(e)}
                   ></TextField>
                   <Button
                     startIcon={<ShoppingCartOutlinedIcon />}
