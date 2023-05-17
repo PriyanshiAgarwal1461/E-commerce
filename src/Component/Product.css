@@ -10,6 +10,9 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+.productContainer:hover {
+  box-shadow: 16px 15px 9px rgba(0, 0, 0, 0.28) !important;
+}
 .contain_products {
   justify-content: space-evenly;
 }
